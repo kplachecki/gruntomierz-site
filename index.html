@@ -3,85 +3,236 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Gruntomierz — polityka prywatności</title>
-<style>
-  :root { color-scheme: light dark; }
-  body { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px;
-         font: 16px/1.6 system-ui, sans-serif; }
-  h1 { font-size: 1.6em; } h2 { font-size: 1.15em; margin-top: 1.8em; }
-  code { background: rgba(127,127,127,.15); padding: 1px 5px; border-radius: 4px; }
-  .meta { color: gray; font-size: .9em; }
-</style>
+<title>Gruntomierz – mapa działek dla rolników i rzeczoznawców</title>
+<meta name="description" content="Gruntomierz to aplikacja na Androida z mapą działek ewidencyjnych, ortofotomapą, klasami gleb, pomiarami i GPS w terenie. Oficjalne dane geoportal.gov.pl, mapy offline, 7 dni Premium za darmo.">
+<link rel="canonical" href="https://gruntomierz.app/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Gruntomierz – mapa działek dla rolników i rzeczoznawców">
+<meta property="og:description" content="Działki, ortofotomapa, klasy gleb, pomiary i GPS w terenie. Oficjalne dane geoportal.gov.pl. Android, 7 dni Premium za darmo.">
+<meta property="og:image" content="https://gruntomierz.app/assets/og-image.png">
+<meta property="og:url" content="https://gruntomierz.app/">
+<meta property="og:locale" content="pl_PL">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#10141a">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Gruntomierz",
+  "operatingSystem": "Android",
+  "applicationCategory": "UtilitiesApplication",
+  "description": "Mapa działek ewidencyjnych z ortofotomapą, klasami gleb, pomiarami, GPS w terenie i mapami offline. Oficjalne dane geoportal.gov.pl.",
+  "url": "https://gruntomierz.app/",
+  "installUrl": "https://play.google.com/store/apps/details?id=pl.gruntomierz.app",
+  "offers": [
+    {"@type": "Offer", "price": "0", "priceCurrency": "PLN", "description": "Wersja darmowa"},
+    {"@type": "Offer", "price": "14.99", "priceCurrency": "PLN", "description": "Premium miesięcznie"},
+    {"@type": "Offer", "price": "99", "priceCurrency": "PLN", "description": "Premium rocznie"},
+    {"@type": "Offer", "price": "249", "priceCurrency": "PLN", "description": "Premium na zawsze"}
+  ],
+  "author": {"@type": "Organization", "name": "KP Software"}
+}
+</script>
 </head>
 <body>
-<h1>Gruntomierz — polityka prywatności</h1>
-<p class="meta">Obowiązuje od: 2 września 2026 r. (poprzednia wersja: 9 lipca 2026 r.)</p>
 
-<h2>1. Administrator</h2>
-<p>Administratorem danych jest Kamil Płachecki, prowadzący działalność gospodarczą
-pod firmą Kamil Płachecki Usługi Informatyczne, ul. Klonowa 5, 55-330 Brzezina.
-Kontakt: <a href="mailto:kontakt@gruntomierz.app">kontakt@gruntomierz.app</a>.</p>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="/"><img src="assets/icon-192.png" alt="" width="28" height="28"> Gruntomierz</a>
+    <nav class="navlinks">
+      <a href="#funkcje">Funkcje</a>
+      <a href="#cennik">Cennik</a>
+      <a href="#faq">FAQ</a>
+      <a class="cta" href="https://play.google.com/store/apps/details?id=pl.gruntomierz.app">Pobierz</a>
+    </nav>
+  </div>
+</header>
 
-<h2>2. Jakie dane przetwarza aplikacja</h2>
-<p>Aplikacja Gruntomierz <strong>nie wymaga konta, nie zbiera i nie przesyła danych
-osobowych na serwery administratora</strong>. Administrator nie prowadzi żadnej bazy
-danych użytkowników.</p>
-<ul>
-  <li><strong>Lokalizacja (GPS)</strong> — przetwarzana wyłącznie na urządzeniu w celu
-  pokazania pozycji na mapie i śledzenia w terenie (także w tle, gdy użytkownik włączy
-  śledzenie). Pozycja nie jest zapisywana w historii ani nigdzie wysyłana.</li>
-  <li><strong>Ustawienia aplikacji</strong> (wybrane warstwy, tryb GPS, zaznaczone działki,
-  pobrane mapy offline) — przechowywane wyłącznie w pamięci urządzenia.</li>
-</ul>
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <div class="mono">Android · dane GUGiK · Polska</div>
+      <h1>Mapa działek, która <em>działa w polu</em></h1>
+      <p class="lead">Granice i numery działek, ortofotomapa, klasy gleb i uzbrojenie terenu z geoportal.gov.pl. Pomiary w hektarach, GPS, który nie gubi pozycji, i mapy offline tam, gdzie nie ma zasięgu.</p>
+      <div class="badges">
+        <a href="https://play.google.com/store/apps/details?id=pl.gruntomierz.app"><img class="play" src="assets/google-play-badge-pl.png" alt="Pobierz z Google Play"></a>
+        <div class="trial"><strong>7 dni Premium za darmo</strong><br>bez karty i bez rejestracji</div>
+      </div>
+    </div>
+    <img class="phone" src="assets/shot_01_dzialki.jpg" alt="Ekran aplikacji Gruntomierz: zaznaczone działki z numerami i sumą powierzchni na ortofotomapie" width="540" height="960">
+  </div>
+</section>
 
-<h2>3. Usługi zewnętrzne (mapy)</h2>
-<p>Aplikacja pobiera mapy i dane działek z publicznych usług sieciowych. Dostawcy tych
-usług widzą adres IP urządzenia oraz zakres mapy, o który prosi aplikacja — zgodnie
-z własnymi politykami prywatności:</p>
-<ul>
-  <li>Główny Urząd Geodezji i Kartografii — <code>geoportal.gov.pl</code>
-  (ortofotomapa, działki ewidencyjne, obręby, uzbrojenie terenu, mapa glebowa,
-  wyszukiwarka działek ULDK i adresów)</li>
-  <li>OpenStreetMap — <code>openstreetmap.org</code> (podkład zastępczy)</li>
-</ul>
+<div class="trust">
+  <div class="wrap">
+    <span>Oficjalne dane geoportal.gov.pl</span>
+    <span>Cała Polska</span>
+    <span>Bez konta</span>
+    <span>Pozycja GPS tylko na Twoim telefonie</span>
+  </div>
+</div>
 
-<h2>4. Uprawnienia systemowe</h2>
-<ul>
-  <li><strong>Lokalizacja (dokładna/przybliżona)</strong> — pozycja na mapie i śledzenie.</li>
-  <li><strong>Internet</strong> — pobieranie map.</li>
-  <li><strong>Powiadomienia</strong> — stałe powiadomienie o aktywnym śledzeniu GPS
-  oraz postęp pobierania map offline.</li>
-</ul>
+<section id="funkcje">
+  <div class="wrap">
+    <div class="mono">Funkcje</div>
+    <h2>Wszystko, czego potrzebujesz przy działce</h2>
+    <p class="sub">Dla rolników, rzeczoznawców, agentów ubezpieczeń rolniczych, geodetów i każdego, kto chce wiedzieć, gdzie kończy się jego pole.</p>
+    <div class="grid">
+      <div class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 7l8-3 8 3-4 12-8 1z"/><circle cx="4" cy="7" r="1.2"/><circle cx="20" cy="7" r="1.2"/><circle cx="16" cy="19" r="1.2"/><circle cx="8" cy="20" r="1.2"/></svg></div>
+        <h3>Działki z numerami</h3>
+        <p>Granice i numery ewidencyjne jednolite w całej Polsce. Dotknij działkę, a zobaczysz numer, obręb, identyfikator TERYT i powierzchnię.</p>
+        <span class="tag">Za darmo</span>
+      </div>
+      <div class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l5 5"/></svg></div>
+        <h3>Wyszukiwarka</h3>
+        <p>Po adresie albo po obrębie i numerze działki. Wpisz „Lipowa 21” i jesteś na miejscu.</p>
+        <span class="tag">Za darmo</span>
+      </div>
+      <div class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/><path d="M3 17l9 5 9-5"/></svg></div>
+        <h3>Klasy gleb i uzbrojenie</h3>
+        <p>Klasoużytki i klasy bonitacyjne, mapa glebowo-rolnicza, sieci wodociągowe, gazowe i energetyczne. Regulowane krycie każdej warstwy.</p>
+        <span class="tag prem">Premium</span>
+      </div>
+      <div class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 20L20 4"/><circle cx="4" cy="20" r="1.8"/><circle cx="20" cy="4" r="1.8"/><path d="M9 15l1.5 1.5M13 11l1.5 1.5"/></svg></div>
+        <h3>Pomiary</h3>
+        <p>Odległość w metrach i powierzchnia w hektarach po punktach na mapie. Zaznacz kilka działek, a apka zsumuje hektary.</p>
+        <span class="tag">Odległość za darmo · powierzchnia i suma w Premium</span>
+      </div>
+      <div class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="8"/><path d="M12 1v3M12 20v3M1 12h3M20 12h3"/></svg></div>
+        <h3>GPS w terenie</h3>
+        <p>Płynny marker z kierunkiem ruchu. Śledzenie działa też po zablokowaniu telefonu, więc obejdziesz granicę bez patrzenia w ekran.</p>
+        <span class="tag">Pozycja za darmo · śledzenie w tle w Premium</span>
+      </div>
+      <div class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M4 19h16"/></svg></div>
+        <h3>Mapy offline</h3>
+        <p>Zaznacz obszar i pobierz ortofotomapę z działkami do pamięci. Na polu bez zasięgu mapa działa jak zwykle.</p>
+        <span class="tag prem">Premium</span>
+      </div>
+    </div>
+  </div>
+</section>
 
-<h2>5. Zakupy w aplikacji i reklamy</h2>
-<p>Aplikacja jest bezpłatna. Przez 7 dni od instalacji wszystkie funkcje są dostępne
-bez ograniczeń; po tym czasie część funkcji („Premium”) wymaga zakupu subskrypcji
-(miesięcznej lub rocznej) albo jednorazowego zakupu dożywotniego.</p>
-<ul>
-  <li>Płatności obsługuje wyłącznie <strong>Google Play</strong> (Google Ireland Ltd.).
-  Administrator nie otrzymuje danych karty ani innych danych płatniczych — widzi jedynie
-  anonimowe potwierdzenie zakupu przypisane do instalacji aplikacji. Zasady przetwarzania
-  danych przez Google opisuje polityka prywatności Google Play.</li>
-  <li>Stan zakupu (rodzaj planu, data ostatniej weryfikacji) oraz data rozpoczęcia okresu
-  próbnego są zapisywane w pamięci urządzenia i mogą być objęte kopią zapasową Android
-  (Google Backup), aby po reinstalacji nie trzeba było przywracać zakupu ręcznie.</li>
-  <li>Subskrypcję można anulować w dowolnym momencie w Sklepie Play; zwroty rozpatruje
-  Google zgodnie z regulaminem Google Play.</li>
-</ul>
-<p>Aplikacja <strong>nie wyświetla reklam</strong>. W razie ich wprowadzenia niniejsza polityka
-zostanie zaktualizowana, a użytkownicy w EOG zostaną poproszeni o zgodę zgodnie z RODO.</p>
+<section id="ekrany">
+  <div class="wrap">
+    <div class="mono">Zrzuty ekranu</div>
+    <h2>Tak to wygląda</h2>
+    <div class="shots">
+      <figure><img src="assets/shot_01_dzialki.jpg" alt="Lista zaznaczonych działek z sumą powierzchni" loading="lazy" width="540" height="960"><figcaption>Działki i suma hektarów</figcaption></figure>
+      <figure><img src="assets/shot_02_pomiar.jpg" alt="Pomiar powierzchni po punktach na mapie" loading="lazy" width="540" height="960"><figcaption>Pomiar powierzchni</figcaption></figure>
+      <figure><img src="assets/shot_03_warstwy.jpg" alt="Panel warstw mapy" loading="lazy" width="540" height="960"><figcaption>Warstwy mapy</figcaption></figure>
+      <figure><img src="assets/shot_06_gps.jpg" alt="Śledzenie GPS na mapie działek" loading="lazy" width="540" height="960"><figcaption>GPS w terenie</figcaption></figure>
+      <figure><img src="assets/shot_05_offline.jpg" alt="Pobieranie obszaru mapy do pamięci offline" loading="lazy" width="540" height="960"><figcaption>Mapy offline</figcaption></figure>
+    </div>
+  </div>
+</section>
 
-<h2>6. Prawa użytkownika</h2>
-<p>Ponieważ administrator nie gromadzi danych osobowych, realizacja praw RODO
-(dostęp, usunięcie itd.) sprowadza się do danych na urządzeniu — można je usunąć,
-czyszcząc dane aplikacji lub ją odinstalowując. Pytania: kontakt powyżej.</p>
+<section id="cennik" class="pricing">
+  <div class="wrap">
+    <div class="mono">Cennik</div>
+    <h2>Za darmo na co dzień, Premium do pracy</h2>
+    <p class="sub">Przez pierwsze 7 dni po instalacji masz wszystko. Potem sam decydujesz, czy Premium jest Ci potrzebne.</p>
+    <div class="plans">
+      <div class="plan free">
+        <h3>Za darmo</h3>
+        <p class="price"><b>0 zł</b> · na zawsze</p>
+        <ul>
+          <li>Ortofotomapa GUGiK</li>
+          <li>Granice i numery działek w całej Polsce</li>
+          <li>Karta działki: numer, obręb, TERYT, powierzchnia</li>
+          <li>Wyszukiwarka adresów i działek</li>
+          <li>Pozycja GPS na mapie</li>
+          <li>Pomiar odległości</li>
+        </ul>
+      </div>
+      <div class="plan prem">
+        <h3>Premium</h3>
+        <p class="price">wszystko z wersji darmowej oraz:</p>
+        <ul>
+          <li>Klasoużytki i klasy bonitacyjne gleb</li>
+          <li>Mapa glebowo-rolnicza</li>
+          <li>Uzbrojenie terenu (woda, gaz, prąd)</li>
+          <li>Obręby ewidencyjne z nazwami</li>
+          <li>Wiele działek naraz i suma hektarów</li>
+          <li>Pomiar powierzchni</li>
+          <li>Śledzenie GPS w tle</li>
+          <li>Mapy offline</li>
+        </ul>
+        <div class="tiers">
+          <div class="tier"><div class="n">Miesięcznie</div><div class="v">14,99 zł</div><div class="s">odnawia się co miesiąc</div></div>
+          <div class="tier best"><div class="n">Rocznie</div><div class="v">99 zł</div><div class="s">oszczędzasz 45%</div></div>
+          <div class="tier"><div class="n">Na zawsze</div><div class="v">249 zł</div><div class="s">jednorazowo, bez subskrypcji</div></div>
+        </div>
+        <p class="note">Płatność przez Google Play. Subskrypcję anulujesz w każdej chwili w Sklepie Play.</p>
+      </div>
+    </div>
+    <div class="trialbox"><span><b>7 dni Premium za darmo</b> po instalacji, bez podawania karty i bez zakładania konta. Sprawdź wszystko na własnym polu, zanim zapłacisz.</span></div>
+  </div>
+</section>
 
-<h2>7. Zmiany polityki</h2>
-<p>Aktualna wersja polityki jest zawsze dostępna pod tym adresem. Istotne zmiany
-zostaną odnotowane wraz z datą obowiązywania.</p>
+<section id="dane">
+  <div class="wrap">
+    <div class="mono">Źródła danych</div>
+    <h2>Oficjalne dane, nie przerysowane mapy</h2>
+    <div class="sources">
+      <div>
+        <p class="sub" style="margin-bottom:12px">Gruntomierz pobiera warstwy bezpośrednio z publicznych usług Głównego Urzędu Geodezji i Kartografii:</p>
+        <ul>
+          <li>Ortofotomapa PZGiK (WMTS)</li>
+          <li>Kataster INSPIRE: granice i numery działek</li>
+          <li>Krajowa Integracja Ewidencji Gruntów: klasoużytki, obręby</li>
+          <li>Krajowa Integracja Uzbrojenia Terenu</li>
+          <li>Mapa glebowo-rolnicza</li>
+          <li>ULDK i PRG: wyszukiwanie działek i adresów</li>
+        </ul>
+      </div>
+      <p class="disclaimer">Dane mapowe i ewidencyjne mają charakter poglądowy i nie stanowią dokumentu w rozumieniu przepisów prawa geodezyjnego. Dostępność i aktualność części warstw zależy od powiatowych ośrodków dokumentacji geodezyjnej, dlatego w niektórych powiatach klasoużytki lub uzbrojenie mogą być niepełne.</p>
+    </div>
+  </div>
+</section>
 
-<h2>8. Zastrzeżenie</h2>
-<p>Prezentowane w aplikacji dane mapowe i ewidencyjne mają charakter poglądowy
-i nie stanowią dokumentu w rozumieniu przepisów prawa geodezyjnego.</p>
+<section id="faq" class="faq">
+  <div class="wrap">
+    <div class="mono">FAQ</div>
+    <h2>Częste pytania</h2>
+    <details><summary>Czy muszę zakładać konto?</summary><p>Nie. Aplikacja nie ma logowania ani rejestracji. Zakup Premium jest przypisany do Twojego konta Google w Sklepie Play i sam przenosi się na nowy telefon.</p></details>
+    <details><summary>Skąd pochodzą dane o działkach?</summary><p>Z publicznych usług geoportal.gov.pl prowadzonych przez GUGiK, tych samych, z których korzystają urzędy. Aplikacja nie ma własnej kopii danych, więc widzisz to, co aktualnie publikuje geoportal.</p></details>
+    <details><summary>Czy działa bez internetu?</summary><p>Tak, po pobraniu obszaru offline (Premium). Zaznaczasz prostokąt na mapie, apka zapisuje ortofotomapę i włączone warstwy w pamięci telefonu i na polu bez zasięgu wszystko działa jak zwykle. Wyszukiwarka i karta działki wymagają internetu.</p></details>
+    <details><summary>Co się stanie po 7 dniach?</summary><p>Aplikacja przełącza się w wersję darmową: mapa działek z numerami, wyszukiwarka, pozycja GPS i pomiar odległości zostają na zawsze. Funkcje Premium pokazują kłódkę i można je odblokować w każdej chwili.</p></details>
+    <details><summary>Jak anulować subskrypcję?</summary><p>W Sklepie Play: Płatności i subskrypcje → Subskrypcje → Gruntomierz Premium → Anuluj. Dostęp trwa do końca opłaconego okresu. Jeśli nie lubisz subskrypcji, wybierz plan „Na zawsze”.</p></details>
+    <details><summary>Czy aplikacja śledzi, gdzie jestem?</summary><p>Pozycja GPS jest przetwarzana wyłącznie na telefonie i nigdzie nie jest wysyłana ani zapisywana. Szczegóły w <a href="polityka-prywatnosci.html">polityce prywatności</a>.</p></details>
+    <details><summary>Czy będzie wersja na iPhone'a?</summary><p>Na razie nie. Gruntomierz jest dostępny na Androida 8.0 i nowsze. Jeśli zależy Ci na wersji iOS, napisz, liczymy głosy.</p></details>
+  </div>
+</section>
+
+<section class="cta-final">
+  <div class="wrap">
+    <h2>Sprawdź swoje działki jeszcze dziś</h2>
+    <p class="sub" style="margin: 0 auto 24px">Instalacja zajmuje minutę. Pierwszy tydzień z pełnym Premium jest w cenie.</p>
+    <div class="badges">
+      <a href="https://play.google.com/store/apps/details?id=pl.gruntomierz.app"><img class="play" src="assets/google-play-badge-pl.png" alt="Pobierz z Google Play"></a>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <span>© 2026 KP Software · Kamil Płachecki Usługi Informatyczne</span>
+    <span><a href="polityka-prywatnosci.html">Polityka prywatności</a> · <a href="mailto:kontakt@gruntomierz.app">kontakt@gruntomierz.app</a></span>
+    <span style="flex-basis:100%;font-size:12px">Google Play i logo Google Play są znakami towarowymi Google LLC. Dane: © GUGiK / geoportal.gov.pl.</span>
+  </div>
+</footer>
+
 </body>
 </html>
